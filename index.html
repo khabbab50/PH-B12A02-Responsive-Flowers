@@ -14,9 +14,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Flowers</title>
+
   </head>
 
-  <body class="p-6 lg:p-0">
+  <body class="p-6 lg:p-0 font-[Inter]">
     <!-- header section start -->
     <header class="container mx-auto flex items-center justify-between pt-6">
       <a class="w-32 h-20" href=""
@@ -39,7 +40,7 @@
     <section class="container mx-auto pt-28">
       <div class="grid grid-cols-1 lg:grid-cols-2 items-end justify-between">
         <div class="w-full order-2 lg:order-1">
-          <h1 class="text-[#000000] text-6xl font-bold text-[Noto Serif] mt-9">
+          <h1 class="font-[Noto-Serif] text-[#000000] text-6xl font-bold text-[Noto Serif] mt-9">
             ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span>
           </h1>
           <p class="text-[#00000080] text-2xl mt-4">
@@ -58,7 +59,7 @@
     <!-- Our Plants section start -->
     <section class="container mx-auto pt-28">
       <div class="text-center mb-12">
-        <h2 class="mb-4 text-[#000] text-5xl font-bold">
+        <h2 class="font-[Noto-Serif] mb-4 text-[#000] text-5xl font-bold">
           <span class="text-[#E95A08]">Our</span> Plants
         </h2>
         <p class="w-full lg:w-4/5 mx-auto text-2xl text-[#00000080]">
@@ -174,7 +175,7 @@
           />
         </div>
         <div class="space-y-5">
-          <h2 class="text-5xl font-bold">
+          <h2 class="font-[Noto-Serif] text-5xl font-bold">
             Flower & Plants <br />
             Lover
           </h2>
@@ -203,7 +204,7 @@
     <!-- Latest  Deals section start -->
     <section class="container mx-auto">
       <div class="text-center mb-12">
-        <h2 class="mb-4 text-[#000] text-5xl font-bold">
+        <h2 class="font-[Noto-Serif] mb-4 text-[#000] text-5xl font-bold">
           <span class="text-[#E95A08]">Latest</span> Deals
         </h2>
         <p class="w-full lg:w-4/5 mx-auto text-2xl text-[#00000080]">
@@ -213,7 +214,7 @@
         </p>
       </div>
 
-      <div class="flex flex-col lg:flex-row gap-3 my-28 text-white">
+      <div class="font-[Noto-Serif] flex flex-col lg:flex-row gap-3 my-28 text-white">
         <div class="w-full lg:w-[30%] h-[400px] flex flex-col">
           <div
             class="w-full h-full bg-[#00000081] bg-[url(./assets/deal-bloom.png)] bg-no-repeat bg-cover mb-3 bg-blend-overlay grid place-items-center rounded-lg"
@@ -259,7 +260,7 @@
       class="py-52 bg-[#00000057] bg-[url(./assets/news-letter-bg.png)] bg-no-repeat bg-cover bg-blend-overlay mb-14"
     >
       <div class="text-center">
-        <h2 class="text-5xl text-white font-bold mb-6">
+        <h2 class="font-[Noto-Serif] text-5xl text-white font-bold mb-6">
           Join the colorful Bunch
         </h2>
         <form class="flex items-center gap-0 w-[90%] lg:w-3/5 mx-auto">
@@ -280,12 +281,17 @@
 
     <!-- footer start -->
     <footer>
-      <div class="container mx-auto grid grid-cols-1 lg:grid-cols-6 gap-20 py-14">
+      <div
+        class="container mx-auto grid grid-cols-1 lg:grid-cols-6 gap-20 py-14"
+      >
         <div class="col-span-2">
-          <a  href="#">
-            <img class="w-32 h-20 mb-4" src="./assets/logo.png" alt="">
+          <a href="#">
+            <img class="w-32 h-20 mb-4" src="./assets/logo.png" alt="" />
           </a>
-          <p class="text-[#00000080] text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+          <p class="text-[#00000080] text-2xl">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop.
+          </p>
         </div>
         <div class="col-span-2 lg:col-span-1">
           <ul class="text-[#00000080] text-base space-y-8">
@@ -306,19 +312,19 @@
             <li><a href="#">Help Center</a></li>
           </ul>
         </div>
-        
+
         <div class="flex items-start gap-8 col-span-2">
           <a href="#">
-            <img class="w-9" src="./assets/icon-linkedin.png" alt="">
+            <img class="w-9" src="./assets/icon-linkedin.png" alt="" />
           </a>
           <a href="#">
-            <img class="w-9" src="./assets/icon-twitter.png" alt="">
+            <img class="w-9" src="./assets/icon-twitter.png" alt="" />
           </a>
           <a href="#">
-            <img class="w-9" src="./assets/icon-facebook.png" alt="">
+            <img class="w-9" src="./assets/icon-facebook.png" alt="" />
           </a>
           <a href="#">
-            <img class="w-9" src="./assets/icon-youtube.png" alt="">
+            <img class="w-9" src="./assets/icon-youtube.png" alt="" />
           </a>
         </div>
       </div>
